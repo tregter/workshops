@@ -165,8 +165,8 @@ Along the way we will learn about:
 ->  Agent Loops and other patterns
 ->  Memory
 ->  Tools
-->  Chunking & Embeddings
-->  Vector RAG
+->  Chunking, Vectors & Embeddings
+->  RAG
 ->  and whatever else you want to
 
 
