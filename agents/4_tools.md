@@ -1,4 +1,0 @@
-# TODO
-
-
-Show that diagram
