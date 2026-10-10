@@ -1,5 +1,4 @@
-#   Intro to Agents
-##  Intro to Computers and Programming
+#  Intro to Computers and Programming
 
 
                                   _____
@@ -26,6 +25,29 @@
                            _///___     ___\\\_
                           |_______|   |_______|
 
+
+
+
+
+
+
+
+
+- age, country, coding rating 0-10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # Overview
 - Why should we care about software?
@@ -35,6 +57,21 @@
   - Python
   - Git
   - Aws
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 # About Me
@@ -47,12 +84,42 @@
 -  No magic, just engineering
 -  Don't like slideshows
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # How you normally learn things
 
 -  Top Down
 -  Fastest path to product
 -  Leaves you feeling excited and confused
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -88,6 +155,22 @@
        │                 └──┼─────────────┼───┘                │                 
        └────────────────────┘             │                    │                 
                                           └────────────────────┘                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                                           
 ---
 # How I teach things
@@ -96,6 +179,26 @@
 -  Reduce noise (eg. build by hand)
 -  Approach each topic in isolation
 -  Leaves you feeling bored and empowered
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -143,6 +246,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # What are we going to do?
 
@@ -159,10 +277,48 @@ Along the way we will learn about:
 -  and whatever else you want to
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # Advice
 
 Ask questions. I know many things about this topic. You can know them too.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -184,6 +340,21 @@ Set you up for further self study, the topics we are going to discuss can take y
 - Use coding agents for guidance, not action.
 - I see *a lot* of AI generated code. Trust me on this one.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # Why do I need to know about programming to build Agents?
 -  What is an Agent?
@@ -196,6 +367,18 @@ Set you up for further self study, the topics we are going to discuss can take y
 │                  │                     │                  │
 └──────────────────┘                     └──────────────────┘
 
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ┌──────────────────┐                       ┌──────────────────┐
@@ -205,21 +388,67 @@ Set you up for further self study, the topics we are going to discuss can take y
 └──────────────────┘                       └──────────────────┘
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 -  An agent is a computer Programme.
--  Large Language Models are usually exposed as HTTP servers.
+-  Large Language Models are usually exposed as HTTP servers. 100%
 -  Programmes can invoke Large Language Models through HTTP endpoints.
 -  Large Language Models consume **data** and they return **data**.
 
 -  The transformation of data is the only purpose of any program. [Mike Acton]
 -  Meaning that the ideal way to work with LLMs is through software.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 Think of an Agent as a data-broker for your LLM, eg.
 -  is the user allowed to access this data?
 -  is the LLM allowed to access this data?
 -  is this data relevant to the question being asked?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -257,8 +486,39 @@ Think of an Agent as a data-broker for your LLM, eg.
                                 │                  │
                                 └──────────────────┘
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 Agentic AI belongs to Subject Matter Experts who can effectively wield Large Language Models. [me]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -268,11 +528,39 @@ Agentic AI belongs to Subject Matter Experts who can effectively wield Large Lan
 -  user interfaces are for humans, but most programmes don't need user interfaces
 -  agents don't need user interfaces
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # What shells are available?
 
 -> Windows: Powershell
 -> Mac/Linux: sh, bash, zsh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 # Basic Navigation
@@ -288,6 +576,19 @@ Agentic AI belongs to Subject Matter Experts who can effectively wield Large Lan
 
 
 ->  ask your AI assistant to help you create shortcuts [aliases].
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # Good reasons to become comfortable with the terminal
 
@@ -295,12 +596,40 @@ Agentic AI belongs to Subject Matter Experts who can effectively wield Large Lan
 ->  Less noise.
 ->  Requirement if you are working on remote servers.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # Code Editor
 
 ->  Code Editors just edit text, everything else are nice-to-haves.
 ->  I wrote my first programme in Notepad.
 ->  *Every* programme is just text being interpreted by your computer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 # What are the nice to haves?
@@ -318,6 +647,20 @@ Agentic AI belongs to Subject Matter Experts who can effectively wield Large Lan
 ->  Collaborative Editing
 ->  Extensions
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # What editors are out there for me?
 From Hardcore to Dummy Mode
@@ -333,6 +676,18 @@ From Hardcore to Dummy Mode
     ->  Antigravity
     ->  Kiro
 
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # Python
 
@@ -341,6 +696,21 @@ From Hardcore to Dummy Mode
 ->  I highly recommend using uv as your Python package manager: https://docs.astral.sh/uv/
     ->  It allows you to install different versions of Python
     ->  It is also a package manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 --- 
 ## Essence of Programming
@@ -351,11 +721,35 @@ From Hardcore to Dummy Mode
 ->  Abstraction (packaging logic into functions)
 
 
+
+
+
+
+
+
+
+
+
 --- 
 ## Object Orientation
 
 ->  Classes and Objects
 
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
-Do we continue down the Python road?
+Workshops:
+
+- Python
+- Git
